@@ -11,7 +11,7 @@
 №   |	Список вопросов
 --- | -----------------------
 1   | [Какие есть типы данных в js](#Какие-есть-типы-данных-в-js)
-2   | [В чем разница между операторами "=" "==" "==="](#В-чем-разница-между-операторами-"="-"=="-"===")
+2   | [В чем разница между операторами "=" "==" "==="](#в-чем-разница-между-операторами---)
 
 1. ### Какие есть типы данных в js
 
@@ -46,8 +46,8 @@
 	```
 	console.log(1 == '1')				// true
 	console.log(1 == '2')				// false
-	console.log(null == undefined)		// true
-	console.log(true == 'qwer')			// true
+	console.log(null == undefined)	// true
+	console.log(true == 'qwer')		// true
 	console.log({} == {})				// false
 	```
 
@@ -58,7 +58,7 @@
 	```
 	console.log(1 === '1')				// false
 	console.log(1 === '2')				// false
-	console.log(null === undefined)		// false
+	console.log(null === undefined)	// false
 	console.log(true === 'qwer')		// false
 	console.log({} === {})				// false
 	```
