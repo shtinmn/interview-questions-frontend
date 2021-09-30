@@ -44,11 +44,11 @@
 	Перед сравнением, если это возможно, происходит автоматическое приведение типов к одному, затем происходит сравнение
 
 	```
-	console.log(1 == '1')				// true
-	console.log(1 == '2')				// false
+	console.log(1 == '1')		// true
+	console.log(1 == '2')		// false
 	console.log(null == undefined)	// true
-	console.log(true == 'qwer')		// true
-	console.log({} == {})				// false
+	console.log(true == 'qwer')	// true
+	console.log({} == {})		// false
 	```
 
 	* "===" - оператор строгого сравнения
@@ -56,11 +56,11 @@
 	Сравнивает и тип данных и значение по обе стороны оператора, если тип данных не совпадает, возвращает ```false```
 
 	```
-	console.log(1 === '1')				// false
-	console.log(1 === '2')				// false
+	console.log(1 === '1')		// false
+	console.log(1 === '2')		// false
 	console.log(null === undefined)	// false
-	console.log(true === 'qwer')		// false
-	console.log({} === {})				// false
+	console.log(true === 'qwer')	// false
+	console.log({} === {})		// false
 	```
 
 	[⬆️ Вернуться в начало](#JavaScript---базовый-уровень)
