@@ -71,9 +71,9 @@
 
 3. ### Какие ключевые слова используются для создания переменных
 
-	1. var
-	2. let
-	3. const
+	1. ```var```
+	2. ```let```
+	3. ```const```
 
 	p.s. также, возможно создать переменную без объявления ключевого слова, если скрипт находится не в режиме [⬇️ use strict](#empty)  (так делать крайне не рекомендуется)
 
@@ -87,13 +87,15 @@
 	badPractice = {}
 	```
 
+	[⬆️ Вернуться в начало](#JavaScript---базовый-уровень)
+
 4. ### В чем разница между ключевыми словами для создания переменных
 
 	1. Область видимости переменной
 
-	var - имеет область видимости ограниченную функцией
+	```var``` - имеет область видимости ограниченную функцией
 
-	let, const - имеют блочную область видимости
+	```let, const``` - имеют блочную область видимости
 
 	```
 	function x() {
@@ -137,9 +139,9 @@
 	var x = 10
 	console.log(x)	// 10
 
-	console.log(z)	//	ReferenceError: Cannot access uninitialized variable.
+	console.log(z)	// ReferenceError: Cannot access uninitialized variable.
 	let z = 10
-	console.log(z)	//10
+	console.log(z)	// 10
 	```
 
 	Переменные созданные через ключевое слово ```var``` инициализируются до начала выполнения скрипта, поэтому, когда происходит обращение к переменной, до ее объявления, в ней уже лежит ```undefined```
@@ -153,20 +155,22 @@
 	```
 	const x = 10
 
-	x = 5	//	TypeError: Attempted to assign to readonly property.
+	x = 5	// TypeError: Attempted to assign to readonly property.
 
 	const y = {}
 
 	y.name = 10
 
-	console.log(y.name)	//10
+	console.log(y.name)	// 10
 
 	const z = []
 
 	z.push(x)
 
-	console.log(z)	//	[10]
+	console.log(z)	// [10]
 	```
+
+	[⬆️ Вернуться в начало](#JavaScript---базовый-уровень)
 
 
 
