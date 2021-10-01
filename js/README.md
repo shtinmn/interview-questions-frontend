@@ -172,6 +172,50 @@
 
 	[⬆️ Вернуться в начало](#JavaScript---базовый-уровень)
 
+5. ### Методы сравнения в js ```==```, ```===```, ```Object.is```
+
+	Метод сравнения ```Object.is``` работает почти также как строгое сравнение за исключением сравнений ```-0 +0``` и ```NaN NaN```
+
+	Полная таблица сравнений:
+
+	x         |y          |==        |===       |Object.is
+	----------|-----------|----------|----------|----------
+	undefined |undefined  |true      |true      |true
+	null	  |null	      |true	     |true	    |true
+	true	  |true       |true	     |true	    |true
+	false	  |false	  |true	     |true	    |true
+	"foo"	  |"foo"	  |true	     |true	    |true
+	{ x: 10 } |x	      |true	     |true	    |true
+	0	      |0	      |true	     |true  	|true
+	+0	      |-0	      |true	     |true	    |false
+	0	      |false	  |true	     |false	    |false
+	""        |false      |true	     |false	    |false
+	""	      |0	      |true	     |false	    |false
+	"0"	      |0	      |true	     |false	    |false
+	"17"	  |17	      |true	     |false	    |false
+	[1,2]	  |"1,2"	  |true	     |false	    |false
+	new String("foo")|"foo"|true     |false	    |false
+	null	  |undefined  |true	     |false	    |false
+	null	  |false	  |false	 |false	    |false
+	undefined |false	  |false	 |false	    |false
+	{ x: 10 } |	{ x: 10 } |false	 |false	    |false
+	new String("foo")|	new String("foo")|	false|	false|	false
+	0	      |null	      |false	 |false	    |false
+	0	      |NaN	      |false	 |false	    |false
+	"foo"	  |NaN	      |false	 |false	    |false
+	NaN	      |NaN	      |false	 |false	    |true
+
+	[⬆️ Вернуться в начало](#JavaScript---базовый-уровень)
+
+
+
+
+
+
+
+
+
+
 
 
 
