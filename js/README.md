@@ -21,8 +21,8 @@
 
 	1. Примитивные типы данных:
 
-      		1. Number - ```10```
-      		2. String - ```'hi'```
+		1. Number - ```10```
+		2. String - ```'hi'```
 		3. Boolean - ```true```
 		4. Undefined - ```undefined```
 		5. BigInt - ```123n```
