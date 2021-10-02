@@ -15,6 +15,7 @@
 3	| [Методы сравнения в js ```==```, ```===```, ```Object.is```](#методы-сравнения-в-js---objectis)
 4	| [Какие ключевые слова используются для создания переменных](#Какие-ключевые-слова-используются-для-создания-переменных)
 5	| [В чем разница между ключевыми словами для создания переменных](#В-чем-разница-между-ключевыми-словами-для-создания-переменных)
+6	| [Преобразование типов в js](#Преобразование-типов-в-js)
 
 1. ### Какие есть типы данных в js
 
@@ -205,3 +206,51 @@
 	```
 
 	[⬆️ Вернуться в начало](#JavaScript---базовый-уровень)
+
+6. ### Преобразование типов в js
+
+	```
+	console.log(String(123)) // '123'
+	console.log(String(123n)) // '123'
+	console.log(String(true)) // 'true'
+	console.log(String(null)) // 'null'
+	console.log(String(undefined)) // 'undefined'
+	console.log(String(NaN)) // 'NaN'
+	console.log(String(Symbol('a'))) // 'Symbol(a)'
+	console.log(String([])) // ''
+	console.log(String(['abc', 123])) // 'abc,123'
+	console.log(String([{}])) // [object Object]
+	console.log(String({})) // [object Object]
+
+	console.log(Number('123')) // 123
+	console.log(Number('qwe')) // NaN
+	console.log(Number(123n)) //123
+	console.log(Number(true)) // 1
+	console.log(Number(null)) // 0
+	console.log(Number(undefined)) // NaN
+	console.log(Number(NaN)) // NaN
+	console.log(Number(Symbol(1))) // TypeError: Cannot convert a symbol to a number
+	console.log(Number([])) // 0
+	console.log(Number([123])) // 123
+	console.log(Number(['123'])) // 123
+	console.log(Number(['qwe'])) // NaN
+	console.log(Number({})) // NaN
+
+	console.log(Boolean(123)) // true
+	console.log(Boolean(0)) // false
+	console.log(Boolean(123n)) // true
+	console.log(Boolean(0n)) // false
+	console.log(Boolean('qwe')) // true
+	console.log(Boolean('0')) // true
+	console.log(Boolean('')) // false
+	console.log(Boolean(null)) // false
+	console.log(Boolean(undefined)) // false
+	console.log(Boolean(NaN)) // false
+	console.log(Boolean(Symbol('a'))) // true
+	console.log(Boolean([]) // true
+	console.log(Boolean({}) // true
+	```
+
+	[⬆️ Вернуться в начало](#JavaScript---базовый-уровень)
+
+	[⬇️ Преобразование объектов в примитивы](#empty)
