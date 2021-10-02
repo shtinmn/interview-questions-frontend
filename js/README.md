@@ -24,15 +24,15 @@
 		1. Number - ```10```
 		2. String - ```'hi'```
 		3. Boolean - ```true```
-		4. Undefined - ```undefined```
-		5. BigInt - ```123n```
-		6. Symbol - ```Symbol('a')```
+		4. Null - ```null```
+		5. Undefined - ```undefined```
+		6. BigInt - ```123n```
+		7. Symbol - ```Symbol('a')```
 
 	2. Ссылочные типы данных:
 
 		1. Object - ```{}```
-		2. Null - ```null```
-		3. Function - ```function name() {}```
+		<!-- 2. Function - ```function name() {}``` -->
 
 [⬆️ Вернуться в начало](#JavaScript---базовый-уровень)
 
