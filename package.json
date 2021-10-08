@@ -8,5 +8,11 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.8.2"
+  },
+  "peerDependencies": {
+    "ansi-regex": "^6.0.1",
+    "glob-parent": "^6.0.2",
+    "nth-check": "^2.0.1",
+    "set-value": "^4.1.0"
   }
 }
