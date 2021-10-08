@@ -1,0 +1,12 @@
+{
+  "name": "Shtinmn",
+  "version": "1.0.0",
+  "description": "This project is collection of questions and answers for interviews",
+  "main": "index.js",
+  "repository": "https://github.com/shtinmn/interview-questions-frontend.git",
+  "author": "Shtin Maksim <shtinmn@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
