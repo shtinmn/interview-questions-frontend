@@ -1,3 +1,3 @@
 # Список вопросов и ответов для интервью на позицию frontend - разработчика
 
-## [Блок вопросов по javascript](js/README.md)
+## [Блок вопросов по javascript](javascript/README.md)
