@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "This project is collection of questions and answers for interviews",
   "main": "index.js",
+  "homepage": "https://shtinmn.github.io/interview-questions-frontend",
   "repository": "https://github.com/shtinmn/interview-questions-frontend.git",
   "author": "Shtin Maksim <shtinmn@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^8.0.0",
+    "gh-pages": "^3.2.3",
     "vuepress": "^1.8.2"
   },
   "scripts": {
-    "docs:dev": "vuepress dev ./",
-    "docs:build": "vuepress build ./"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "predeploy": "yarn run docs:dev",
+    "deploy": "gh-pages -d build"
   }
 }
