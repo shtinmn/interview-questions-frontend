@@ -3,3 +3,9 @@ node_modules
 .DS_Store
 
 .dist
+
+.vscode
+
+docs/.vuepress/.cache
+
+docs/.vuepress/.temp

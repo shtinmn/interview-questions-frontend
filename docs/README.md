@@ -4,7 +4,7 @@ heroText: Сборник ключевых вопросов для интервь
 tagline: Данный проект находится в разработке
 # actionText: Get Started →
 # actionLink: /guide/
-heroImage: /vuejs-main-img.png
+heroImage: /vuejs-main-img.svg
 # features:
 # - title: Simplicity First
 #   details: Minimal setup with markdown-centered project structure helps you focus on writing.
