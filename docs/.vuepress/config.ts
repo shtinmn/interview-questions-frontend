@@ -12,6 +12,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     navbar: [
       // { text: 'Home', link: '/' },
       { text: 'Javascript', link: '/javascript/' },
+      { text: 'React', link: '/react/' },
       // { text: 'External', link: 'https://google.com' }
     ],
   },
