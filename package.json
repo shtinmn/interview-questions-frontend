@@ -1,6 +1,6 @@
 {
   "name": "interview-questions-frontend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This project is collection of questions and answers for interviews",
   "main": "index.js",
   "homepage": "https://shtinmn.github.io/interview-questions-frontend",
@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "eslint": "^8.0.0",
+    "follow-redirects": "1.14.7",
     "vuepress": "next"
   },
   "scripts": {
